@@ -1,0 +1,23 @@
+.editorMain {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.87), rgb(0, 0, 0));
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.082);
+  color: white;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  /*width: 0px; remove scrollbar space */
+  width: 0px;
+  background: white; /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #021b2d;
+}

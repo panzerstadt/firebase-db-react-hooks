@@ -1,0 +1,10 @@
+.addInput {
+  width: 50px;
+}
+
+.inputLabel {
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

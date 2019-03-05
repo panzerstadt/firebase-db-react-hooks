@@ -1,3 +1,16 @@
+# .env needed
+
+refer to firebase console for instructions (click on new web app)
+
+```
+REACT_APP_apiKey="your api key"
+REACT_APP_authDomain="<project-id>.firebaseapp.com"
+REACT_APP_databaseURL="https://<project-id>.firebaseio.com"
+REACT_APP_projectId="<project-id>"
+REACT_APP_storageBucket="<project-id>.appspot.com"
+REACT_APP_messagingSenderId="<some string of numbers from firebase>"
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
