@@ -1,15 +1,30 @@
 .editorMain {
   text-align: left;
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   height: 100%;
-  width: 400px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.87), rgb(0, 0, 0));
-  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.082);
-  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  /* width: 400px; */
+  /* background: linear-gradient(to left, rgba(0, 0, 0, 0.87), rgb(0, 0, 0)); */
+  /* box-shadow: 5px 0 15px rgba(0, 0, 0, 0.082); */
+  color: black;
   padding: 1rem;
   overflow-y: scroll;
+}
+
+.editorBtn {
+  transition: background-color 500ms ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  outline: none;
+  border: 2px solid black;
 }
 
 ::-webkit-scrollbar {

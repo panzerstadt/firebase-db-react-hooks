@@ -147,7 +147,7 @@ export const Update = ({
 
   return (
     <div>
-      <h3>UPDATE</h3>
+      <h3>UPDATE (+DELETE)</h3>
       <button
         className={styles.modeButton}
         style={{ backgroundColor: editable ? "red" : "black" }}

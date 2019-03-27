@@ -58,7 +58,7 @@ export const DataBlock = ({ data, onUpdate, mode }) => {
                   ""
                 )}
                 <img
-                  style={{ height: 300, objectFit: "cover" }}
+                  className={styles.dataBlockImage}
                   src={image}
                   alt={data.title}
                 />
@@ -81,7 +81,7 @@ export const DataBlock = ({ data, onUpdate, mode }) => {
       <div className={styles.dataBlockDiv}>
         <div className={styles.dataBlock}>
           <img
-            style={{ height: 300, objectFit: "cover" }}
+            className={styles.dataBlockImage}
             src={data.imageData}
             alt={data.title}
           />
